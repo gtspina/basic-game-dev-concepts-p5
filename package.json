@@ -1,0 +1,23 @@
+{
+  "name": "game-estudies-p5",
+  "version": "1.0.0",
+  "description": "My studies of game development using p5 framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"      
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtspina/game-estudies-p5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtspina/game-estudies-p5/issues"
+  },
+  "homepage": "https://github.com/gtspina/game-estudies-p5#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

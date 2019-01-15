@@ -1,0 +1,38 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: #1e1e1e;
+    color: white;
+    margin: 0;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    margin: auto;
+}
+
+h2, h3 {
+    color: #569cd6;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    display: block;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+ul li a:hover{
+    color: #ce9178;
+}

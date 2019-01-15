@@ -1,0 +1,10 @@
+{
+  "name": "game-estudies",
+  "projects": [
+    "sin-cos-2",
+    "sin-cos-1",
+    "sin-cos-3-spiral",
+    "sin-cos-4-flower",
+    "sin-cos-5-gradient"
+  ]
+}
