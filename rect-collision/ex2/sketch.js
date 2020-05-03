@@ -72,8 +72,8 @@ function drawRect(obj, collided) {
 	if (exComplete) {
 		drawPoint(getP1PointFormatted(obj), obj.pos.x - 20, obj.pos.y - 5, "black");
 		drawPoint(getP2PointFormatted(obj), obj.pos.x + obj.width - 20, obj.pos.y - 5, "black");
-		drawPoint(getP3PointFormatted(obj), obj.pos.x - 20, obj.pos.y + obj.height + 17, "black");
-		drawPoint(getP4PointFormatted(obj), obj.pos.x + obj.width - 20, obj.pos.y + obj.height + 17, "black");
+		drawPoint(getP3PointFormatted(obj), obj.pos.x - 20, obj.pos.y + obj.height, "black");
+		drawPoint(getP4PointFormatted(obj), obj.pos.x + obj.width - 20, obj.pos.y + obj.height, "black");
 	} else {
 		drawPoint(obj.points[0], obj.pos.x - 5, obj.pos.y - 5, obj.color);
 		drawPoint(obj.points[1], obj.pos.x + obj.width - 5, obj.pos.y - 5, obj.color);
