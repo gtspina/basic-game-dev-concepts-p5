@@ -10,10 +10,10 @@ const rect1 = {
 	width: 80,
 	height: 80,
 	points: ["A", "B", "C", "D"],
-	color: 'rgba(234, 26, 26, 0.63)',
-	hoverColor: 'rgba(234, 26, 26, 1)',
+	color: 'rgba(234, 26, 26, 1)',	
+	hoverColor: 'rgba(234, 26, 26, 0.60)',
 	getColor: function (collided) {
-		return collided ? this.color : this.hoverColor;
+		return collided ? this.hoverColor : this.color;
 	}
 };
 
@@ -22,10 +22,10 @@ const rect2 = {
 	width: 80,
 	height: 100,
 	points: ["E", "F", "G", "H"],
-	color: 'rgba(55, 15, 163, 0.60)',
-	hoverColor: 'rgba(55, 15, 163, 1)',
+	color: 'rgba(55, 15, 163, 1)',	
+	hoverColor: 'rgba(55, 15, 163, 0.60)',
 	getColor: function (collided) {
-		return collided ? this.color : this.hoverColor;
+		return collided ? this.hoverColor : this.color;
 	}
 };
 
